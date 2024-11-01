@@ -36,4 +36,6 @@ contract AddressContract{
     function sendFund(address payable _address, uint nominal) public returns(bool){
         _address.send(nominal);
     } 
+
+    //update
 }
